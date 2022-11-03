@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(10, 80, 39);
+    color:white;
+    font-family: 'Poppinsregular', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:rgb(179, 19, 19);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(179, 19, 19);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: white;
+    color:rgb(10, 80, 39);
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppinsmedium', sans-serif;
+}
+
+span{
+    color: rgb(179, 19, 19);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppinslight', sans-serif;
+}
+
+img{
+    width: 260px;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(179, 19, 19);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.bottom .center{
+    align-items: center;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(179, 19, 19);
+    border-radius: 20px;
+    margin-top: 150px;
+    text-align: center;
+}
+.bottom .center span{
+    color: aliceblue;
+    align-self: center;
+}
+
+.bottom .center a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bottom .center a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
