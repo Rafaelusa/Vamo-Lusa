@@ -22,10 +22,7 @@
     }
 
     img{
-        width: 100px;
-        margin-top: 20px;
-        align-self: center;
-        margin-left: -30px;
+        display: none;
     }
 
     ul{
